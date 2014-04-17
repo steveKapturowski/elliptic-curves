@@ -12,6 +12,8 @@ import (
 	//"fmt"
 )
 
+// TODO: break out some of the struct definitions into other files
+
 type HyperellipticCurve struct {
 	H Polynomial // deg(H) < g
 	F Polynomial // deg(F) = 2g+1
